@@ -3,7 +3,7 @@ resource "random_pet" "this" {
 }
 
 module "bucket" {
-  source     = "../../modules/example"
+  source     = "../../modules/s3-bucket"
   bucket     = "bucket-${random_pet.this.id}"
   acl        = var.acl
 }
