@@ -31,7 +31,7 @@ jobs:
 
     - name: Terraspca Clean Cache
       run: |
-        terraspace clean cache 
+        terraspace clean cache -y
         
     - name: Run Terraspace
       run: |
