@@ -1,2 +1,2 @@
 # Global account-level variables
-acl = "private"
+s3_acl = "private"
