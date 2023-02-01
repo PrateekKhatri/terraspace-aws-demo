@@ -29,6 +29,8 @@ jobs:
       run:
         .github/bin/install
 
+    
     - name: Run Terraspace
       run: |
+        terraspace init dev
         terraspace plan dev
