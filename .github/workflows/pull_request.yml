@@ -29,7 +29,10 @@ jobs:
       run:
         .github/bin/install
 
-    
+    - name: Terraspca Clean Cache
+      run: |
+        terraspace clean cache 
+        
     - name: Run Terraspace
       run: |
         terraspace init dev
