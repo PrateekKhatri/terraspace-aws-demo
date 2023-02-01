@@ -1,7 +1,7 @@
 name: Pull Request Plan
 
 on:
-  - pull_request
+  pull_request:
 
 jobs:
   run:
@@ -33,4 +33,7 @@ jobs:
     - name: Run Terraspace
       run: |
         terraspace init dev
+        
+    - name: Terraspace Plan
+      run: |
         terraspace plan dev
