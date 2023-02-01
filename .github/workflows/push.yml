@@ -34,3 +34,7 @@ jobs:
     #- name: Run Terraspace
     #  run: |
     #    terraspace up demo -y
+    
+    - name: Run Terraspace
+      run: |
+        terraspace plan dev
