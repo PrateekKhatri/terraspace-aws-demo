@@ -1,9 +1,4 @@
 resource "aws_s3_bucket" "main" {
-  bucket = local.global_csi
+  bucket = "pk0test0446"
   acl    = var.s3_acl
-
-
-  tags   = merge({
-    Name = local.global_csi
-  },local.default_tags)
 }
