@@ -1,4 +1,4 @@
 variable "s3_acl" {
-  deault = "public"
+  default = "public"
   type = string
 }
