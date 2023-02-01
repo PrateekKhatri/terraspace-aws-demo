@@ -38,6 +38,6 @@ jobs:
       run:
         .github/bin/install
 
-    - name: Run Terraspace
-      run: |
-        terraspace ${{ github.event.inputs.command }} -y
+    #- name: Run Terraspace
+    #  run: |
+    #    terraspace ${{ github.event.inputs.command }} -y
