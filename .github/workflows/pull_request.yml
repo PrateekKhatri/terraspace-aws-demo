@@ -48,7 +48,7 @@ jobs:
 
     - name: Terraspace Plan VPC
       run: |
-        terraspace plan dev network --no-copy-to-root
+        terraspace plan dev -i network --no-copy-to-root
 
     - name: Terraspace Plan S3
       run: |
