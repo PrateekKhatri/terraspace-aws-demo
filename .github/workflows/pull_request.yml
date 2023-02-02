@@ -40,4 +40,4 @@ jobs:
         
     - name: Terraspace Plan
       run: |
-        terraspace plan dev
+        terraspace all plan dev
