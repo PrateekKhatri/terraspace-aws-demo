@@ -40,8 +40,8 @@ jobs:
         
     - name: Terraspace Build
       run: |
-        terraspace build demo
-        
+        terraspace build dev
+
     - name: Terraspace Plan
       run: |
         terraspace all plan dev --no-copy-to-root
