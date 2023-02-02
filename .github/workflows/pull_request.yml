@@ -35,8 +35,7 @@ jobs:
         
     - name: Run Terraspace
       run: |
-        terraspace clean cache -y
-        terraspace init network
+        terraspace init dev
         
     # - name: Terraspace Build
     #   run: |
