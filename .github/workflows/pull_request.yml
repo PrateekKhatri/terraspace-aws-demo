@@ -36,22 +36,22 @@ jobs:
     - name: Run Terraspace
       run: |
         terraspace clean cache -y
-        terraspace init dev
+        terraspace init network
         
-    - name: Terraspace Build
-      run: |
-        terraspace build dev
+    # - name: Terraspace Build
+    #   run: |
+    #     terraspace build dev
 
-    - name: Terraspace Plan
-      run: |
-        terraspace plan dev --no-copy-to-root
+    # - name: Terraspace Plan
+    #   run: |
+    #     terraspace plan dev --no-copy-to-root
 
-    - name: Terraspace Plan VPC
-      run: |
-        terraspace plan dev -i network --no-copy-to-root
+    # - name: Terraspace Plan VPC
+    #   run: |
+    #     terraspace plan dev -i network --no-copy-to-root
 
-    - name: Terraspace Plan S3
-      run: |
+    # - name: Terraspace Plan S3
+    #   run: |
         terraspace plan dev -i storage --no-copy-to-root
 
     - name: Terraspace Plan S3

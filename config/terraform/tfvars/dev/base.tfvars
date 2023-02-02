@@ -1,3 +1,3 @@
 # Global account-level variables
 s3_acl = "private"
-name = "dev"
+name = "dev-dev-001"
