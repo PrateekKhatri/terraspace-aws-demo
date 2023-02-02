@@ -1,1 +1,0 @@
-name = "dev-network-west-2"
