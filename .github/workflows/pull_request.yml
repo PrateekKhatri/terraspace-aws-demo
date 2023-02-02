@@ -52,4 +52,4 @@ jobs:
 
     - name: Terraspace Plan S3
       run: |
-        terraspace plan dev storage --no-copy-to-root
+        terraspace plan dev -i storage --no-copy-to-root
