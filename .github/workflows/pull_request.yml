@@ -38,6 +38,10 @@ jobs:
         terraspace clean cache -y
         terraspace init dev
         
+    - name: Terraspace Build
+      run: |
+        terraspace build demo
+        
     - name: Terraspace Plan
       run: |
         terraspace all plan dev --no-copy-to-root
