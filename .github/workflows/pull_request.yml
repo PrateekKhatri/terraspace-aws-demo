@@ -35,7 +35,7 @@ jobs:
         
     - name: Run Terraspace
       run: |
-        terraspace init dev
+        terraspace init network
         
     # - name: Terraspace Build
     #   run: |
@@ -51,7 +51,7 @@ jobs:
 
     # - name: Terraspace Plan S3
     #   run: |
-        terraspace plan dev -i storage --no-copy-to-root
+    #    terraspace plan dev -i storage --no-copy-to-root
 
     - name: Terraspace Plan S3
       run: |
