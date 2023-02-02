@@ -44,7 +44,7 @@ jobs:
 
     - name: Terraspace Plan
       run: |
-        terraspace all plan dev --no-copy-to-root
+        terraspace plan dev --no-copy-to-root
 
     - name: Terraspace Plan VPC
       run: |
